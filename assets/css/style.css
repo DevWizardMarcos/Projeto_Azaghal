@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+:root{
+    --colorPrincipal : #FFDF00;
+    --colorSecundaria: #24221B;
+    --colorDestaque : #DB0D88;
+    --colorAmarelo80: #FFE133;
+    --colorPretoGraduação1 : #333333;
+    --colorPretoGraduação2 : #4C4C4C;
+    --colorPretoGraduação3: #8C8C8C;
+}
+
+
+header{
+    background-color: var(--colorSecundaria);
+    height:1440px;
+    height: 170px;
+}
+
+.LogoMarca{
+    width: 193px;
+    height: 83px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
